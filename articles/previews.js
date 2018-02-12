@@ -35,6 +35,14 @@ var previews = [
         [...]"
   },
   {
+    "url":"articles/20171122-bluepaper-internet-of-people",
+    "datetime":"2017-11-22",
+    "datetext":"22 novembre 2017",
+    "title":"Bluepaper Internet of People",
+    "subtitle":"Version 2.0",
+    "brief":""
+  },
+  {
     "url":"articles/20171021-mise-a-jour-majeure-iop-core-6-0-0",
     "datetime":"2017-10-21",
     "datetext":"21 octobre 2017",
@@ -45,7 +53,7 @@ var previews = [
   {
     "url":"articles/20171009-rapport-transparence-2",
     "datetime":"2017-10-09",
-    "datetext":"9 septembre 2017",
+    "datetext":"9 octobre 2017",
     "title":"Rapport de transparence #2",
     "subtitle":"Par Markus Maiwald - Fondateur du projet Libertaria",
     "brief":""
@@ -59,11 +67,27 @@ var previews = [
     "brief":""
   },
   {
+    "url":"./articles/20171001-iop-premiere-implementation-hydra",
+    "datetime":"2017-10-01",
+    "datetext":"1 octobre 2017",
+    "title":"Internet of People sera la première implémentation d'Hydra",
+    "subtitle":"Par Juan Manuel Cancino Pérez - IoP Deputy Community Leader",
+    "brief":""
+  },
+  {
     "url":"./articles/20170930-developpement-rapport-transparence-1",
     "datetime":"2017-09-30",
     "datetext":"30 septembre 2017",
     "title":"Développement & rapport de transparence #1",
     "subtitle":"Par Markus Maiwald - Fondateur du projet Libertaria",
+    "brief":""
+  },
+  {
+    "url":"./articles/20170927-desuberiser-economie-collaborative-avec-iop",
+    "datetime":"2017-09-27",
+    "datetext":"27 septembre 2017",
+    "title":"« Désubériser » l’économie collaborative avec Internet of People",
+    "subtitle":"Par Juan Manuel Cancino Pérez - IoP Deputy Community Leader",
     "brief":""
   },
   {

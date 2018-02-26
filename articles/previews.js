@@ -1,5 +1,15 @@
 var previews = [
   {
+    "url":"articles/20180213-rapport-transparence-4",
+    "datetime":"2018-02-13",
+    "datetext":"13 février 2018",
+    "title":"Rapport de transparence #4",
+    "subtitle":"Par Markus Maiwald - Fondateur du projet Libertaria",
+    "brief":"\
+        Bienvenue sur le rapport de transparence IoP de février 2018. Le projet IoP a été chargé ces derniers mois, avec de nombreux changements et différents évènements communautaires et de développement. Ce rapport donne un aperçu des développements les plus importants.\
+        [...]"
+  },
+  {
     "url":"articles/20180114-rapport-transparence-3",
     "datetime":"2018-01-14",
     "datetext":"14 janvier 2018",

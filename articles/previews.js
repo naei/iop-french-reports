@@ -1,5 +1,15 @@
 var previews = [
   {
+    "url":"articles/20180324-protegez-donnees-personelles-iop",
+    "datetime":"2018-03-24",
+    "datetext":"24 mars 2018",
+    "title":"Protégez vos données personelles avec Internet of People",
+    "subtitle":"Par Juan Manuel Cancino Pérez et Rich McDowell",
+    "brief":"\
+        Les nouvelles regorgent d'histoires de données personnelles utilisées sans consentement. Nous nous réveillons enfin aux problèmes de stockage centralisé des données et à la façon dont les réseaux et réseaux sociaux comme Facebook récoltent et vendent nos données sans notre consentement. Alors que les gouvernements s'efforcent de résoudre le problème, beaucoup de gens sont confus quant à ce qu'ils peuvent faire, même si ils envisagent de quitter complètement les réseaux sociaux.\
+        [...]"
+  },
+  {
     "url":"articles/20180213-rapport-transparence-4",
     "datetime":"2018-02-13",
     "datetext":"13 février 2018",

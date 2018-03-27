@@ -27,6 +27,7 @@
 
                 <!-- Main -->
                     <div id="main">
+                        <!-- Large Posts -->
                     </div>
 
                 <!-- Sidebar -->
@@ -49,11 +50,10 @@
                             </section>
                         
                         <!-- Posts List -->
-                        <!--    <section>
+                            <section>
                                 <ul class="posts">
                                 </ul>
                             </section>
-                        -->
 
                         <!-- About -->
                             <section class="blurb">
@@ -98,11 +98,13 @@
 
             <script>
                 var nbLargePreview = 4;
+                var nbMiniPreview = 6;
                 var post;
 
                 $.each(previews, function(i, item) {
 
                     if (i < nbLargePreview) {
+                        // Large Posts
                         post = '\
                             <article class="post">\
                                 <header>\
@@ -133,8 +135,9 @@
                                 </ul>');
                         }
 
-                    } else {
+                    } else if (i < nbMiniPreview+nbLargePreview) {
 
+                        // Mini Posts
                         post = '\
                             <article class="mini-post">\
                                 <header>\
@@ -145,10 +148,10 @@
                             </article>';
 
                         $(".mini-posts").append(post);
-                    }
+                    
+                    } else {
 
-                    /*} else {
-
+                        // Posts List
                         post = '\
                             <li>\
                                 <article>\
@@ -156,13 +159,12 @@
                                         <h3><a href="' + item.url +'">' + item.title +'</a></h3>\
                                         <time class="published" datetime="' + item.datetime +'">' + item.datetext +'</time>\
                                     </header>\
-                                    <a href="' + item.url +'" class="image"><img src="' + item.image +'" alt="" /></a>\
                                 </article>\
                             </li>';
 
                         $(".posts").append(post);
 
-                    }*/
+                    }
 
                 });
                 

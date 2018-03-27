@@ -27,7 +27,7 @@
 
                 <!-- Main -->
                     <div id="main">
-                        <!-- Large Posts -->
+                        <!-- Large posts -->
                     </div>
 
                 <!-- Sidebar -->
@@ -43,30 +43,13 @@
                                 </header>
                             </section>
 
-                        <!-- Mini Posts -->
-                            <section>
-                                <div class="mini-posts">
-                                </div>
-                            </section>
-                        
-                        <!-- Posts List -->
-                            <section>
-                                <ul class="posts">
-                                </ul>
-                            </section>
-
                         <!-- About -->
                             <section class="blurb">
-                                <h2>En savoir plus</h2>
                                 <p>
                                     Internet of People (IoP) est une infrastructure complète pour les applications et les paiements complètement décentralisé et basé sur des nœuds (la blockchain) pouvant fonctionner sur des ordinateurs personnels ou même sur des appareils plus petits comme un Raspberry Pi ou un smartphone.
                                 </p>
                                 <p>
-                                    La crypto-monnaie IoP est une devise utilisée pour les paiements sur le réseau IoP. Il accorde également à ses détenteurs une part dans Internet of People en tant qu'organisation autonome décentralisée (DAO).
-                                </p>
-                                <p>
-                                    IoP French Reports est la source officielle des actualités sur l'Internet of People en français.<br>
-                                    Afin d'en savoir plus sur le projet, n'hésitez pas à nous rejoindre nos différents médias et réseaux sociaux disponibles :
+                                    IoP French Reports est la source officielle des actualités sur l'Internet of People en français. Afin d'en savoir plus sur le projet, n'hésitez pas à nous rejoindre nos différents médias et réseaux sociaux disponibles :
                                 </p>
                                 <ul class="icons">
                                     <li><a href="https://iop.global" class="fa-globe"><span class="label">iop.global</span><span class="description">Site officiel (EN)</span></a></li>
@@ -75,7 +58,22 @@
                                     <li><a href="https://discord.gg/gsRKp6T" class="fa-comments"><span class="label">Discord</span><span class="description">Chat Discord (EN,FR)</span></a></li>
                                     <li><a href="https://t.me/IoPofficial" class="fa-telegram"><span class="label">Discord</span><span class="description">Groupe Telegram (EN)</span></a></li>
                                 </ul>
-                                <hr>
+                            </section>
+
+                        <!-- Mini posts -->
+                            <section>
+                                <div class="mini-posts">
+                                </div>
+                            </section>
+                        
+                        <!-- Posts list -->
+                            <section>
+                                <ul class="posts">
+                                </ul>
+                            </section>
+
+                        <!-- More info -->
+                            <section>
                                 <script type="text/javascript" src="./assets/js/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="internet-of-people" data-currencyid="1464" data-base="EUR" data-secondary="BTC" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-stats="EUR" data-statsticker="false"></div>
                             </section>
 
@@ -98,13 +96,13 @@
 
             <script>
                 var nbLargePreview = 4;
-                var nbMiniPreview = 6;
+                var nbMiniPreview = 8;
                 var post;
 
                 $.each(previews, function(i, item) {
 
                     if (i < nbLargePreview) {
-                        // Large Posts
+                        // large posts
                         post = '\
                             <article class="post">\
                                 <header>\
@@ -137,7 +135,7 @@
 
                     } else if (i < nbMiniPreview+nbLargePreview) {
 
-                        // Mini Posts
+                        // mini posts
                         post = '\
                             <article class="mini-post">\
                                 <header>\
@@ -151,7 +149,7 @@
                     
                     } else {
 
-                        // Posts List
+                        // posts list
                         post = '\
                             <li>\
                                 <article>\

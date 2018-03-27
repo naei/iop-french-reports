@@ -120,13 +120,20 @@
         <pubDate>Sun, 14 Jan 2018 07:00:00 +0000</pubDate>
     </item>
 
-
     <item>
         <title>Rapport de transparence #4</title>
         <link>http://www.iop-france.org/articles/20180213-rapport-transparence-4</link>
         <guid>http://www.iop-france.org/articles/20180213-rapport-transparence-4</guid>
         <description></description>
         <pubDate>Tue, 13 Feb 2018 07:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+        <title>Protégez vos données personelles avec Internet of People</title>
+        <link>http://www.iop-france.org/articles/20180324-protegez-donnees-personelles-iop</link>
+        <guid>http://www.iop-france.org/articles/20180324-protegez-donnees-personelles-iop</guid>
+        <description></description>
+        <pubDate>Sat, 24 Mar 2018 07:00:00 +0000</pubDate>
     </item>
 
 </channel>

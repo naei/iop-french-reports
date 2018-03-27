@@ -98,15 +98,18 @@
 					}, 100);
 				});
 
-		// Intro.
+		// Intro & About
 			var $intro = $('#intro');
+			var $about = $('#about');
 
 			// Move to main on <=large, back to sidebar on >large.
 				skel
 					.on('+large', function() {
+						$about.prependTo($main);
 						$intro.prependTo($main);
 					})
 					.on('-large', function() {
+						$about.prependTo($sidebar);
 						$intro.prependTo($sidebar);
 					});
 

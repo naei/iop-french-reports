@@ -1,5 +1,15 @@
 var previews = [
   {
+    "url":"articles/20180328-video-qu-est-ce-que-iop",
+    "datetime":"2018-03-28",
+    "datetext":"28 mars 2018",
+    "title":"Vidéo : qu'est-ce que IOP ?",
+    "subtitle":"",
+    "brief":"\
+        L'IoP (Internet of People) est en train de construire un social graph ouvert - une infrastructure P2P complète qui permet un accès direct aux personnes et une communication directe entre appareils. L'Internet of People est l'infrastructure de service qui permet d\'établir des relations de personne à personne pour les transactions commerciales ; Son système distribué et décentralisé basé sur une chaîne de blocs (blockchain) permet aux données personnelles de rester sur l\'appareil de\
+        [...]"
+  },
+  {
     "url":"articles/20180324-protegez-donnees-personelles-iop",
     "datetime":"2018-03-24",
     "datetext":"24 mars 2018",
